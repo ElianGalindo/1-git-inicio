@@ -1,0 +1,66 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(https://img.asmedia.epimg.net/resizer/n0ywSiQjLvaBDbLrjRPhUh0dJ4Q=/1472x1104/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/YXIB4EYAQ5F6XJXWAR3RNA5YCE.jpg);
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    
+}
+
+.encabezado{
+    width: 100%;
+    height: 80px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.informacion{
+    width: 100%; ;
+    height: calc(100vh - 80px);
+    display: flex;
+    
+}
+
+.articulos{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+
+.nota{
+    width: 40%;
+    height: 300px;
+    background: bisque;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.menu{
+    width: 25%;
+    height: 100%;
+    background: cadetblue;
+}
+
+.nota:hover{
+    background: rgb(255, 255, 199);
+}
